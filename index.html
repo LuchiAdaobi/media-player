@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zen Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <h1>Zen Player</h1>
+
+    <div class="music-container">
+        <div class="music-info">
+            <h4 id="title">Rain forest</h4>
+            <div class="progress-container">
+                <div class="progress">
+                </div>
+            </div>
+        </div>
+
+        <audio src="music/rainforest.mp3" id="audio"></audio>
+        <div class="img-container">
+            <img src="images/lake-8305673_1280.webp" alt="picture of flowers" id="cover">
+        </div>
+
+        <div class="navigation">
+            <button id="prev" class="action-btn">
+                <i class="fas fa-backward"></i>
+            </button>
+            <button id="play" class="action-btn action-btn-big">
+                <i class="fas fa-play"></i>
+            </button>
+            <button id="next" class="action-btn">
+                <i class="fas fa-forward"></i>
+            </button>
+        </div>
+    </div>
+</body>
+</html>
